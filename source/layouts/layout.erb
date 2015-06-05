@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
           </button>
           <% link_to "/index.html", class: "navbar-brand" do %>
-            <%= image_tag 'logo.svg' %>
+            <%= image_tag 'circle_oil_mini.png' %>
           <% end %>
         </div>
 
@@ -33,11 +33,6 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right">
-            <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
-              <% end %>
-            </li>
             <li>
               <% link_to "/contact.html" do %>
                 <i class="fa fa-envelope-o"></i> Contact
@@ -57,5 +52,20 @@
     </nav>
 
     <%= yield %>
+
+    <div class="bg-black" id="footer">
+      <ul>
+        <li>
+          <% link_to "" do %>
+            <i class="fa fa-apple"></i>
+          <% end %>
+        </li>
+        <li>
+          <% link_to "" do %>
+            <i class="fa fa-android"></i>
+          <% end %>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
