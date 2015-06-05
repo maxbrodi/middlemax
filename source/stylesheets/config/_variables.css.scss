@@ -1,10 +1,38 @@
 /* -------------------------------------
  * Fonts
  * ------------------------------------- */
+
+// Perso Fonts
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proxima_semibold-webfont.eot');
+    src: url('proxima_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_semibold-webfont.woff') format('woff'),
+         url('proxima_semibold-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('proxima_thin-webfont.eot');
+    src: url('proxima_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_thin-webfont.woff') format('woff'),
+         url('proxima_thin-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+$header-font: "Proxima Nova", "sans-serif";
+
+
+
 // Google fonts
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
 $base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Montserrat", "sans-serif";
+
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -24,16 +52,18 @@ $base-height: 1.4;
  * Colors
  * ------------------------------------- */
 // Scheme
-$red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
-$orange: #E67E22;
-$green: #32B796;
-$purple: #6452BD;
+$black: #141414;
+$lightblack: #323133;
+$yellow: #eec857;
+$darkyellow: #eeb057;
+$orange: #e07a46;
+$darkorange: #e05c46;
+$green: #4ab19d;
+$blue: blue;
+$red: red;
 
 // Gray scale
-$gray-darker:  lighten(#000, 13.5%); // #222
-$gray-dark:    lighten(#000, 20%);   // #333
-$gray:         lighten(#000, 33.5%); // #555
-$gray-light:   lighten(#000, 46.7%); // #777
-$gray-lighter: lighten(#000, 93.5%); // #eee
+$darkgray:    #E7E2EC;   // #333
+$gray:         #C9C5CE; // #555
+$white: #141414;
+$realwhite: #EDE8F2;

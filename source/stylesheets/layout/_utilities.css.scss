@@ -3,31 +3,93 @@
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
-.padded {
-  padding-top: 8em;
-  padding-bottom: 8em;
+// .padded {
+//   padding-top: 8em;
+//   padding-bottom: 8em;
+// }
+// .bg-red {
+//   background: $red;
+//   color: white;
+// }
+// .bg-blue {
+//   background: $blue;
+//   color: white;
+// }
+// .bg-yellow {
+//   background: $yellow;
+//   color: white;
+// }
+// .bg-orange {
+//   background: $orange;
+//   color: white;
+// }
+// .bg-green {
+//   background: $green;
+//   color: white;
+// }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: $black;
 }
-.bg-red {
-  background: $red;
+h1 {
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 400;
+}
+h2, h3 {
+  font-family: 'Proxima Nova Light', sans-serif;
+  font-weight: 200;
+}
+
+.bg-black {
+  background: $lightblack;
   color: white;
+  text-align: center;
+  padding: 50px;
+
+  p {
+    color: $gray;
+  }
 }
-.bg-blue {
-  background: $blue;
-  color: white;
-}
-.bg-yellow {
-  background: $yellow;
-  color: white;
-}
-.bg-orange {
-  background: $orange;
-  color: white;
-}
+
 .bg-green {
   background: $green;
-  color: white;
+  background-size: 100%;
+  padding: 40px;
+  text-align: center;
+
+  form {
+    margin-top: 19px;
+  }
+
+  .form-control {
+    width: 300px;
+    margin: auto;
+    border-radius: 7px;
+  }
+
+  .btn {
+    background-color: $orange;
+    border-color: $darkorange;
+    border-radius: 7px;
+    transition: background 0.5s ease;
+
+    &:hover{
+      background-color: $yellow;
+      border-color: $darkyellow;
+    }
+  }
 }
-.bg-purple {
-  background: $purple;
-  color: white;
+
+#features {
+  h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
